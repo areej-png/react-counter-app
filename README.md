@@ -1,16 +1,83 @@
-# React + Vite
+# React Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **React Counter App** built using React and Vite.  
+This project demonstrates the core concepts of **state management** and **event handling** with a modern responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+-  Increase & decrease the count dynamically  
+-  Reset button to return count to zero  
+-  Fully responsive, minimal card-style layout  
+-  Modern and clean UI design  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Concepts Covered
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React Functional Components  
+- `useState` Hook  
+- Event Handling (`onClick`)  
+- Component-based CSS styling  
+
+---
+
+## Folder Structure
+
+```bash
+react-counter-app/
+│
+├── src/
+│ ├── components/
+│ │ └── Counter.css
+│ │ └── Counter.jsx
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+│
+└── package.json
+```
+
+---
+
+##  Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/areej-png/react-counter-app.git
+
+cd react-counter-app
+```
+2. **Install dependencies** 
+```bash
+npm install
+```
+3. **Run the project**
+ ```bash
+npm run dev
+```
+4. **Open in your browser**
+```bash
+http://localhost:5173
+
+```
+
+---
+
+## Preview
+Here’s how the counter App looks in the browser:
+
+### Counter App UI
+![Counter App Screenshot](https://github.com/user-attachments/assets/0fd29ed2-cba9-47ec-9471-59c3cb8a602c)
+
+---
+
+## Tech Stack 
+- React 19+
+- Vite
+- CSS3 (Flexbox & Responsive Design)
+
+## Author
+Areej Aamir 
